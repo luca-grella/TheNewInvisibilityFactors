@@ -1,0 +1,194 @@
+\documentclass [12pt]{article}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ left=25mm,
+ right=25mm,
+ top=30mm,
+ bottom=30mm,
+ headsep=10mm,
+ footskip=15mm}
+\linespread{1.175}\selectfont
+\usepackage{blindtext}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\def\labelitemi{--}
+\def\labelitemii{*}
+\pagenumbering{arabic}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\usepackage{framed}
+\usepackage[shortlabels]{enumitem}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+\pagestyle{fancy}
+\fancyhf{}
+%P.I.C.S. Paper
+% Computer Science and Engineering
+%\lhead{\small\textcolor{gray}{I nuovi fattori di invisibilità}}
+%\lfoot{\hline\small\textcolor{gray}{Copyright © 2019, Luca Grella %– Tutti i diritti riservati}}
+%\rhead{\small\textcolor{gray}{Indice}}
+%\rfoot{\hline\small\textcolor{gray}{\thepage}}
+
+\setlength{\headheight}{17pt}
+\usepackage{graphicx}
+\newcommand{\sectionbreak}{\clearpage}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{subcaption}
+\usepackage{tabu}
+
+\begin{document}
+%\thispagestyle{plain}
+\thispagestyle{empty}
+%\lhead{}
+%\lfoot{}
+%\rhead{}
+%\rfoot{}
+
+\begin{figure}[ht!]
+\centering
+\vspace{4cm}
+\includegraphics[scale=0.5]{Images/PolimiLogo}
+\end{figure}
+
+
+%\begin{framed}
+
+
+\begin{large}
+
+\centering
+\fbox{\parbox{10cm}{
+
+\centerline{\small\textbf{}}
+\centerline{\small\textbf{Politecnico di Milano}}
+\centerline{Computer Science and Engineering}
+\centerline{Philosophical Issues of Computer Science}
+\centerline{AA 2018-2019}
+%\centerline{$\cdots$}
+\centering
+\vspace{0.5cm}
+\includegraphics[scale=1]{Images/separatorecalligrafico}
+%\begin{framed}
+\centerline{\textbf{I nuovi fattori di invisibilità}}
+\centerline{\small{a cura di}}
+\vspace{0.5cm}
+\centerline{\textit{Luca Grella}}
+%\end{framed}
+%\centerline{$\cdots$}
+\centering
+\includegraphics[scale=1]{Images/separatorecalligrafico}
+\centerline{\small{2 Luglio 2019}}
+\centerline{\small{Copyright © 2019 – Tutti i diritti riservati}}
+\centerline{\small\textbf{}}
+
+}}
+
+\end{large}
+ 
+%\end{framed}
+
+\begin{comment}
+
+\vspace{3.5cm}
+\begin{table}[h!]
+\begin{tabu} to \textwidth { X[0.3,r,p] X[0.7,l,p] }
+\hline
+\textbf{Titolo:} \vspace{0.5cm} & I nuovi fattori di invisibilità \\ [0.05cm]
+\textbf{Autore:} \vspace{0.5cm} & Luca Grella \\ [0.05cm]
+\textbf{Corso:} \vspace{0.5cm} & Philosophical Issues of Computer Science \\ [0.05cm]
+\textbf{Data:} \vspace{0.5cm} & 2 Luglio 2019 \\ [0.05cm]
+\textbf{Copyright:} \vspace{0.1cm} & Copyright © 2019, Luca Grella – Tutti i diritti riservati \\
+\hline
+\end{tabu}
+\end{table}
+
+\end{comment}
+
+
+\clearpage
+
+\setcounter{page}{1}
+
+\lhead{\small\textcolor{gray}{I nuovi fattori di invisibilità}}
+\lfoot{\hline\small\textcolor{gray}{Copyright © 2019, Luca Grella – Tutti i diritti riservati}}
+\rhead{\small\textcolor{gray}{Indice}}
+\rfoot{\hline\small\textcolor{gray}{\thepage}}
+
+\renewcommand*\contentsname{Indice}
+\tableofcontents
+
+
+\clearpage
+
+\rhead{\small\textcolor{gray}{Abstract}}
+\phantomsection
+\section*{Abstract}
+\addcontentsline{toc}{section}{Abstract}
+\label{sect:abstract}
+\input{Files/abstract}
+
+\clearpage
+\rhead{\small\textcolor{gray}{Introduzione}}
+\phantomsection
+\section*{Introduzione}
+\addcontentsline{toc}{section}{Introduzione}
+\label{sect:introduzione}
+\input{Files/introduzione}
+
+\clearpage
+\rhead{\small\textcolor{gray}{Capitolo 1}}
+\phantomsection
+\section*{Capitolo 1}
+\addcontentsline{toc}{section}{Capitolo 1}
+\label{sect:cap1}
+\input{Files/cap1}
+
+
+\clearpage
+\rhead{\small\textcolor{gray}{Capitolo 2}}
+\phantomsection
+\section*{Capitolo 2}
+\addcontentsline{toc}{section}{Capitolo 2}
+\label{sect:cap2}
+\input{Files/cap2}
+
+\clearpage
+\rhead{\small\textcolor{gray}{Capitolo 3}}
+\phantomsection
+\section*{Capitolo 3}
+\addcontentsline{toc}{section}{Capitolo 3}
+\label{sect:cap3}
+\input{Files/cap3}
+
+\clearpage
+\rhead{\small\textcolor{gray}{Capitolo 4}}
+\phantomsection
+\section*{Capitolo 4}
+\addcontentsline{toc}{section}{Capitolo 4}
+\label{sect:cap4}
+\input{Files/cap4}
+
+\clearpage
+\rhead{\small\textcolor{gray}{Conclusioni}}
+\phantomsection
+\section*{Conclusioni}
+\addcontentsline{toc}{section}{Conclusioni}
+\label{sect:conclusioni}
+\input{Files/conclusioni}
+
+
+\clearpage
+\rhead{\small\textcolor{gray}{Riferimenti}}
+\phantomsection
+\section*{Riferimenti}
+\addcontentsline{toc}{section}{Riferimenti}
+\label{sect:riferimenti}
+\input{Files/riferimenti}
+
+
+
+
+\end{document}
