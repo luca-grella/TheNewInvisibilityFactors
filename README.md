@@ -1,8 +1,8 @@
 <p align="center">
 <img src="https://github.com/luca-grella/PhilosophicalIssuesOfComputerScience/blob/master/Images/PolimiLogo.png"><br><br>
-**Philosophical Issues of Computer Science Paper**<br>
-**I NUOVI FATTORI DI INVISIBILITÀ**<br>
-a cura di *Luca Grella*<br>
+<b>Philosophical Issues of Computer Science Paper</b><br>
+<b>I NUOVI FATTORI DI INVISIBILITÀ</b><br>
+a cura di <i>Luca Grella</i><br>
 A.Y. 2018-2019<br>
 Copyright © 2019<br>
 All rights reserved<br><br>
