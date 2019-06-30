@@ -1,12 +1,13 @@
 <p align="center">
-<img width="400" height="400" src="https://github.com/luca-grella/PhilosophicalIssuesOfComputerScience/blob/master/Images/PolimiLogo.png"><br><br>
+<img src="https://github.com/luca-grella/PhilosophicalIssuesOfComputerScience/blob/master/Images/PolimiLogo.png"><br><br>
 Philosophical Issues of Computer Science Paper<br>
 A.Y. 2018-2019<br>
 Author: Luca Grella<br>
 Copyright © 2019<br>
-All rights reserved
+All rights reserved<br><br>
+<img src="https://github.com/luca-grella/PhilosophicalIssuesOfComputerScience/blob/master/Images/separatorecalligrafico.png"><br><br>
 </p>
-<br>
+
 
 
 # Abstract
